@@ -80,11 +80,28 @@
       <h2>EVALUATION METRIC</h2>
       <div class="bold-line"></div>
       <article>
-        <!--<p>-->
-          <!--This year we will focus on two particular tasks, <b>Popularity Prediction</b> and <b>Tomorrow’s Top Prediction</b>. Meanwhile, we are open for innovative self-proposed topics-->
-        <!--</p>-->
+      
+         <table class="table table-striped leaderboard-table">
+        <thead>
+        <tr>
+          <th>Task</th>
+          <th>Metrics</th>
+          
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>SMP-T1</td>
+            <td>Spearmanr's Rho, MAE, and MSE</td>
+          </tr>
+          <tr>
+            <td>SMP-T2</td>
+            <td>HR, MAE, and Spearmanr's Rho</td>
+          </tr>
+        </tbody>
+      </table>
         <p>
-          The evaluation provided here can be used to obtain performances on the testing set of SMP. It contains multiple common metrics, including <b>Spearman Ranking Correlation (Spearmanr's Rho)</b>, <b>MAE</b>, <b>MSE</b>, and <b>Hit Rate (HR)</b>.
+          The evaluation provided here can be used to obtain performances on the testing set of SMP. It contains multiple common metrics, including <b>Spearman Ranking Correlation (Spearmanr's Rho)</b>, <b>Mean Absolute Error (MAE)</b>, <b>Mean Squared Error (MSE)</b>, and <b>Hit Ratio (HR)</b>.
           <br>By quantitative evaluation, we measure the systems submitted to this challenge on a testing set. Our evaluation protocol is applied on the following criteria:
         </p>
         <p>
