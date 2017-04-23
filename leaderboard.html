@@ -57,70 +57,97 @@
     <section class="section">
       <h2>LEADERBOARD</h2>
       <div class="bold-line"></div>
-      <table class="table table-striped leaderboard-table">
-        <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Team Name</th>
-          <th>Score</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>To be opened</td>
-          <td>	0.00</td>
-        </tr>
-       
-        </tbody>
-      </table>
+
+      <div class="col-md-6">
+        <table class="table table-striped leaderboard-table">
+          <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Team Name</th>
+            <th>Score</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>To be opened</td>
+            <td>	0.00</td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-striped leaderboard-table">
+          <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Team Name</th>
+            <th>Score</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>To be opened</td>
+            <td>	0.00</td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>RANKING</h2>
+      <div class="bold-line"></div>
+      <article>
+
+        <p>
+          The ranking for the competition is based on the results from T1 and T2, respectively. Specifically, a rank list of teams is produced by sorting their scores on each T1 or T2 evaluation metric, respectively.
+        </p>
+      </article>
     </section>
 
     <section class="section">
       <h2>EVALUATION METRIC</h2>
       <div class="bold-line"></div>
    <article>
-         <table class="table table-striped leaderboard-table">
-        <thead>
-        <tr>
-          <th>Task</th>
-          <th>Metrics</th>
-          
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>SMP-T1</td>
-            <td>Spearmanr's Rho, MAE, and MSE</td>
-          </tr>
-          <tr>
-            <td>SMP-T2</td>
-            <td>HR, MAE, and Spearmanr's Rho</td>
-          </tr>
-        </tbody>
-      </table>
-        <p>
-          The evaluation provided here can be used to obtain performances on the testing set of SMP. It contains multiple common metrics, including <b>Spearman Ranking Correlation (Spearmanr's Rho)</b>, <b>Mean Absolute Error (MAE)</b>, <b>Mean Squared Error (MSE)</b>, and <b>Hit Ratio (HR)</b>.
-          <br>By quantitative evaluation, we measure the systems submitted to this challenge on a testing set. Our evaluation protocol is applied on the following criteria:
-        </p>
-        <p>
-          <i class="green-dot"></i><b>Prediction Correlation:</b> whether the predicted popularity more correlates with the actual value of the popularity?<br>
-          <i class="green-dot"></i><b>Prediction Error:</b> to judge the error of the score prediction<br>
-          <i class="green-dot"></i><b>Ranking Relevance:</b> to measure the ranking relevance between top-k items and predicted ranking
-        </p>
+     <div class="col-md-6">
+       <table class="table table-striped leaderboard-table">
+         <thead>
+         <tr>
+           <th>Task</th>
+           <th>Metrics</th>
+
+         </tr>
+         </thead>
+         <tbody>
+         <tr>
+           <td>SMP-T1</td>
+           <td>Spearmanr's Rho, MAE, and MSE</td>
+         </tr>
+         <tr>
+           <td>SMP-T2</td>
+           <td>HR, MAE, and Spearmanr's Rho</td>
+         </tr>
+         </tbody>
+       </table>
+     </div>
+     <div style="float: none;clear: both">
+       <p>
+         The evaluation provided here can be used to obtain performances on the testing set of SMP. It contains multiple common metrics, including <b>Spearman Ranking Correlation (Spearmanr's Rho)</b>, <b>Mean Absolute Error (MAE)</b>, <b>Mean Squared Error (MSE)</b>, and <b>Hit Ratio (HR)</b>.
+         <br>By quantitative evaluation, we measure the systems submitted to this challenge on a testing set. Our evaluation protocol is applied on the following criteria:
+         <br>
+         <i class="green-dot"></i><b>Prediction Correlation:</b> whether the predicted popularity more correlates with the actual value of the popularity?<br>
+         <i class="green-dot"></i><b>Prediction Error:</b> to judge the error of the score prediction<br>
+         <i class="green-dot"></i><b>Ranking Relevance:</b> to measure the ranking relevance between top-k items and predicted ranking
+       </p>
+     </div>
    </article>
     </section>
     
-    <section class="section">
-      <h2>RANKING</h2>
-      <div class="bold-line"></div>
-    <article>
-        
-    <p>
-    The ranking for the competition is based on the results from T1 and T2, respectively. Specifically, a rank list of teams is produced by sorting their scores on each T1 or T2 evaluation metric, respectively. 
-    </p>
- </article>
-    </section>
+
     
   </div>
 </div>
