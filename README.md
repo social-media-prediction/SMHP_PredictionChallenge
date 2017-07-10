@@ -17,10 +17,7 @@
   Task2:
   Train Image Urls https://drive.google.com/open?id=0B7CzfJRX7ZuzU3AxbTVsRE9pUEE
 
-3. Evaluation Codes for Two Tasks
-  
-  Performance Evaluation 
-  https://github.com/social-media-prediction/SMPMultimediaChallengeMaterials/blob/master/EvaluationCode.zip
+
 
 ### Data Introduction
 
