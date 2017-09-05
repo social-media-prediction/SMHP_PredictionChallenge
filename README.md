@@ -94,37 +94,24 @@ popularityscore
 #### t1_test_label.json (example)
 
 ```
+   {
     "version": "VERSION 1.2",
-    
     "result": [
-    
         {
-        
             "post_id": "post6374637",
-            
             "popularity_score": 2.1345
-            
         },
-        
         ...
-        
         {
-        
             "post_id": "post3637373",
-            
             "popularity_score": 3.1415
-            
         }
-        
     ],
-    
     "external_data": {
-    
         "used": "true",
-        
         "details": "VGG-19 pre-trained on ImageNet training set"
-        
     }
+}
 
 ```
 
