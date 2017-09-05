@@ -18,7 +18,7 @@
    https://drive.google.com/open?id=0B5DNzEjbQhUZaVhoX04yTllRUFU
 
 
-**If you intend to publish results that use the information and resources provided by SMP Challenge, please include the following references:
+#### If you intend to publish results that use the information and resources provided by SMP Challenge, please include the following references:
 
 @inproceedings{Wu2017DTCN,
   title={Sequential Prediction of Social Media Popularity with Deep Temporal Context Networks},
@@ -39,14 +39,14 @@
   year = {2016},
   location = {Amsterdam, The Netherlands}}
   
-  ***Note that the data will ONLY be released to participants who have registered the challenge during the competition.
+#### Note that the data will ONLY be released to participants who have registered the challenge during the competition.
   
 ### Data Introduction
 **SMP-T1 Statistics
 #Post	| #User	| Temporal Range (Years)	| Avg. Title Length	| Avg. Tag Count	| Avg. Description Length |	Avg. Views
 432K	    135	          6	                      20	                  9	                 114	                131
 
-**t1_train_data.txt or t1_test_data.txt
+#### t1_train_data.txt or t1_test_data.txt
 
 Each row of data has a unique picture id (pid) along with associate user id (uid). Also, metadata of the picture such as the posted date (postdate), comment count (commentcount), whether has people tagged in the photo (haspeople), character length of the title and image caption (titlelen or deslen), number of tags in post. Meanwhile, user-centered infomation such as average view count, group count, and average member count also included in CSV file.
 
@@ -61,7 +61,7 @@ pid uid postdate commentcount haspeople titlelen deslen tagcount avgview groupco
 ```
 
 
-**t1_train_label.txt
+#### t1_train_label.txt
 
 The label file contains the popularity score (log-views). The picture id and user id of the labels are corresponding with associate data raws in data files.
 ```
@@ -72,7 +72,7 @@ popularityscore
 ...
 ```
 
-***t1_test_label.json (example)
+#### t1_test_label.json (example)
 
     "version": "VERSION 1.2",
     
