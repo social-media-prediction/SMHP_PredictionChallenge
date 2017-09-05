@@ -71,9 +71,8 @@ popularityscore
 2.3
 ...
 ```
-**t1_test_label.json (example)
 
-{
+***t1_test_label.json (example)
 
     "version": "VERSION 1.2",
     
@@ -107,4 +106,4 @@ popularityscore
         
     }
     
-}
+
