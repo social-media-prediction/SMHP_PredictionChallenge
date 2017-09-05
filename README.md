@@ -24,43 +24,26 @@
 
 
 #### If you intend to publish results that use the information and resources provided by SMP Challenge, please include the following references:
-
- @inproceedings{Wu2017DTCN,
- 
- title={Sequential Prediction of Social Media Popularity with Deep Temporal Context Networks},
- 
- author={Wu, Bo and Cheng, Wen-Huang and Zhang, Yongdong and Qiushi, Huang and Jintao, Li and Mei, Tao},
- 
- booktitle={IJCAI},
- 
- year={2017},
-  
- location = {Melbourne, Australia}}
-
- @inproceedings{Wu2016TemporalPrediction,
-
- author = {Wu, Bo and Mei, Tao and Cheng, Wen-Huang and Zhang, Yongdong},
-  
- title = {Unfolding Temporal Dynamics: Predicting Social Media Popularity Using Multi-scale Temporal Decomposition},
- 
- booktitle = {AAAI}
- 
- year = {2016},
- 
- location = {Phoenix, Arizona}}
-
- @inproceedings{Wu2016TimeMatters,
- 
- author = {Wu, Bo and Cheng, Wen-Huang and Zhang, Yongdong and Mei, Tao},
- 
- title = {Time Matters: Multi-scale Temporalization of Social Media Popularity},
- 
- booktitle = {ACM Multimedia},
- 
- year = {2016},
- 
- location = {Amsterdam, The Netherlands}}
-  
+```
+@inproceedings{Wu2017DTCN,
+  title={Sequential Prediction of Social Media Popularity with Deep Temporal Context Networks},
+  author={Wu, Bo and Cheng, Wen-Huang and Zhang, Yongdong and Qiushi, Huang and Jintao, Li and Mei, Tao},
+  booktitle={IJCAI},
+  year={2017},
+  location = {Melbourne, Australia}}
+@inproceedings{Wu2016TemporalPrediction,
+  author = {Wu, Bo and Mei, Tao and Cheng, Wen-Huang and Zhang, Yongdong},
+  title = {Unfolding Temporal Dynamics: Predicting Social Media Popularity Using Multi-scale Temporal Decomposition},
+  booktitle = {AAAI}
+  year = {2016},
+  location = {Phoenix, Arizona}}
+@inproceedings{Wu2016TimeMatters,
+  author = {Wu, Bo and Cheng, Wen-Huang and Zhang, Yongdong and Mei, Tao},
+  title = {Time Matters: Multi-scale Temporalization of Social Media Popularity},
+  booktitle = {ACM Multimedia},
+  year = {2016},
+  location = {Amsterdam, The Netherlands}}
+ ```
 #### Note that the data will ONLY be released to participants who have registered the challenge during the competition.
   
 ### Data Introduction
