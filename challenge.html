@@ -127,52 +127,18 @@
       <article>
         <p>
           Each team is allowed to submit the results of at most three runs and selects one run as the primary run of the submission (we do not guarantee to evaluate additional runs), which will be measured for performance comparison across teams.<br>
-          Each submission is required to be formatted in a <b>JSON File</b> as follows. Here we also provide a <a href="https://github.com/social-media-prediction/SMPMultimediaChallengeMaterials/raw/master/EvaluationJsonExample.zip">submission example</a> as reference.
-          
+          Each submission is required to be formatted in a <b>JSON File</b> as follows. Here we also provide a <a href="https://github.com/social-media-prediction/PredictionChallenge/blob/master/JsonExample2018.zip">submission example</a> as reference.
         </p>
       </article>
       <div class="task-box">
         <div class="panel-group" id="submission" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="submissionOne">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#submission" href="#submissionCollapseOne" aria-expanded="true" aria-controls="submissionCollapseOne">
-                  Submission Format for SMP-T1 (ascending by post_id):
-                </a>
-              </h4>
-            </div>
-            <div id="submissionCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="submissionOne">
-              <div class="panel-body">
-                <pre>
-                  <code>
-{
-    "version": "VERSION 1.2",
-    "result": [
-        {
-            "post_id": "post6374637",
-            "popularity_score": 2.1345
-        },
-        ...
-        {
-            "post_id": "post3637373",
-            "popularity_score": 3.1415
-        }
-    ],
-    "external_data": {
-        "used": "true",
-        "details": "VGG-19 pre-trained on ImageNet training set"
-    }
-}
-                  </code>
-                </pre>
-              </div>
-            </div>
-          </div>
+          
+          
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="submissionTwo">
               <h4 class="panel-title">
                 <a role="button" data-toggle="collapse" data-parent="#submission" href="#submissionCollapseTwo" aria-expanded="true" aria-controls="submissionCollapseOne">
-                  Submission Format for SMP-T2 (ascending by post_id):
+                  Submission Format (ascending by post_id):
                 </a>
               </h4>
             </div>
