@@ -3,24 +3,24 @@
 ### Materials List
  1. Train Data (include image paths, meta data and labels)
  
-    https://drive.google.com/open?id=0B7CzfJRX7ZuzOGR3am9VUEppUWM
+    https://drive.google.com/open?id=0B7CzfJRX7ZuzWFRQUnlKTGJYUWM
 
 
  2. Train Image Urls
    
-    https://drive.google.com/open?id=0B7CzfJRX7ZuzZ0JfT3RmZzRhLU0
+    https://drive.google.com/open?id=0B7CzfJRX7ZuzU3AxbTVsRE9pUEE
 
  3. Train Data for Time Zone
     
-    https://drive.google.com/file/d/0B5DNzEjbQhUZZWF4YkdueWViZ00
+    
    
  4. Test Data (include image download links, meta data and timezone) 
     
-    https://drive.google.com/file/d/0B5DNzEjbQhUZVUxfVks2SU1QZWc
+    to be released
  
  5. Test Label
     
-    https://drive.google.com/open?id=0B5DNzEjbQhUZaVhoX04yTllRUFU
+    to be released
 
 
 #### If you intend to publish results that use the information and resources provided by SMP Challenge, please include the following references:
@@ -72,7 +72,7 @@ popularityscore
 ...
 ```
 
-#### t1_test_label.json (example)
+#### t2_test_label.json (example)
 
 ```
    {
@@ -80,11 +80,13 @@ popularityscore
     "result": [
         {
             "post_id": "post6374637",
+            "ranking_position": 1,
             "popularity_score": 2.1345
         },
         ...
         {
             "post_id": "post3637373",
+            "ranking_position": 5,
             "popularity_score": 3.1415
         }
     ],
