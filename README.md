@@ -5,14 +5,13 @@
  
     https://drive.google.com/open?id=0B7CzfJRX7ZuzWFRQUnlKTGJYUWM
 
-
  2. Train Image Urls
    
     https://drive.google.com/open?id=0B7CzfJRX7ZuzU3AxbTVsRE9pUEE
 
  3. Train Data for Time Zone
     
-    
+    https://drive.google.com/open?id=0B5DNzEjbQhUZdnp2cUFwQmNLbTQ
    
  4. Test Data (include image download links, meta data and timezone) 
     
@@ -48,7 +47,7 @@
   
 ### Data Introduction
 
-#### t2_train_data.txt or t2_test_data.txt
+#### train_data.txt or test_data.txt
 Each row of data has a unique picture id (pid) along with user id (uid). Also, metadata of the picture such as the posted date (postdate), category it belongs to (category and subcategory), concept, path alias for image, whether public to all users (ispublic), media status, title, media type, all tags, geo information (latitude, longitude, and geoaccuracy). In SMP-T2, all fields are wrapped by double quote.
 
 ```
@@ -61,7 +60,7 @@ uid pid category subcategory concept pathalias ispublic mediastatus title mediat
 ```
 
 
-#### t2_train_label.txt
+#### train_label.txt
 
 The label file contains the popularity score (log-views). The picture id and user id of the labels are corresponding with associate data raws in data files.
 ```
@@ -72,7 +71,7 @@ popularityscore
 ...
 ```
 
-#### t2_test_label.json (example)
+#### test_label.json (example)
 
 ```
    {
