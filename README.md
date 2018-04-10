@@ -1,4 +1,4 @@
-# Social Media Prediction Challenge (Task1)
+# Social Media Prediction Challenge
 
 ### Materials List
  1. Train Data (include image paths, meta data and labels)
