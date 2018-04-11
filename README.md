@@ -1,4 +1,4 @@
-# Social Media Prediction Challenge
+# Social Media Headline Prediction Challenge (SMHP)
 
 ### Materials List
  1. Train Data (include image paths, meta data and labels)
@@ -22,7 +22,7 @@
     to be released
 
 
-#### If you intend to publish results that use the information and resources provided by SMP Challenge, please include the following references:
+#### If you intend to publish results that use the information and resources provided by SMHP Challenge, please include the following references:
 ```
 @inproceedings{Wu2017DTCN,
   title={Sequential Prediction of Social Media Popularity with Deep Temporal Context Networks},
@@ -48,7 +48,7 @@
 ### Data Introduction
 
 #### train_data.txt or test_data.txt
-Each row of data has a unique picture id (pid) along with user id (uid). Also, metadata of the picture such as the posted date (postdate), category it belongs to (category and subcategory), concept, path alias for image, whether public to all users (ispublic), media status, title, media type, all tags, geo information (latitude, longitude, and geoaccuracy). In SMP-T2, all fields are wrapped by double quote.
+Each row of data has a unique picture id (pid) along with user id (uid). Also, metadata of the picture such as the posted date (postdate), category it belongs to (category and subcategory), concept, path alias for image, whether public to all users (ispublic), media status, title, media type, all tags, geo information (latitude, longitude, and geoaccuracy). In the dataset, all fields are wrapped by double quote.
 
 ```
 uid pid category subcategory concept pathalias ispublic mediastatus title mediatype alltags postdate latitude geoaccuracy longitude
