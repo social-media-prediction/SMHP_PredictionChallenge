@@ -15,7 +15,7 @@
    
  4. Test Data (include image paths, meta data and labels) 
  
-    https://drive.google.com/open?id=0B7CzfJRX7ZuzRjRULVpWa18xazg
+    
     
  5. Test Image Urls
  
