@@ -13,13 +13,17 @@
     
     https://drive.google.com/open?id=0B5DNzEjbQhUZdnp2cUFwQmNLbTQ
    
- 4. Test Data (include image download links, meta data and timezone) 
-    
-    to be released
+ 4. Test Data (include image paths, meta data and labels) 
  
- 5. Test Label
+    https://drive.google.com/open?id=0B7CzfJRX7ZuzRjRULVpWa18xazg
     
-    to be released
+ 5. Test Image Urls
+ 
+    https://drive.google.com/open?id=0B7CzfJRX7ZuzNU8yNHMzQTJHUjg
+ 
+ 6. Test Data for Time Zone
+    
+    https://drive.google.com/open?id=0B5DNzEjbQhUZVEJTclN5NWlGX2M
 
 
 #### If you intend to publish results that use the information and resources provided by SMHP Challenge, please include the following references:
