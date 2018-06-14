@@ -13,7 +13,7 @@
     
     https://drive.google.com/open?id=0B5DNzEjbQhUZdnp2cUFwQmNLbTQ
    
- 4. Test Data (include image paths, meta data and labels) 
+ 4. Test Data (include image paths, meta data and without labels) 
     
     https://drive.google.com/open?id=0B5DNzEjbQhUZUXQtRjRpbkQwSE0
     
