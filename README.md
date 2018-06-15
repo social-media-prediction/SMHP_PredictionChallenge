@@ -17,11 +17,7 @@
     
     https://drive.google.com/open?id=0B5DNzEjbQhUZUXQtRjRpbkQwSE0
     
- 5. Test Image Urls
- 
-    https://drive.google.com/open?id=0B7CzfJRX7ZuzNU8yNHMzQTJHUjg
- 
- 6. Test Data for Time Zone
+ 5. Test Data for Time Zone
     
     https://drive.google.com/open?id=0B5DNzEjbQhUZVEJTclN5NWlGX2M
 
