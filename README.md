@@ -20,6 +20,9 @@
  5. Test Data for Time Zone
     
     https://drive.google.com/open?id=0B5DNzEjbQhUZVEJTclN5NWlGX2M
+    
+### Evaluation Script
+    https://github.com/social-media-prediction/PredictionChallenge/blob/master/Task2Eval_SMHP2018.py
 
 
 #### If you intend to publish results that use the information and resources provided by SMHP Challenge, please include the following references:
