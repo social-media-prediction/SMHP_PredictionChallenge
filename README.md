@@ -33,12 +33,6 @@
   booktitle={IJCAI},
   year={2017},
   location = {Melbourne, Australia}}
-@inproceedings{Wu2016TemporalPrediction,
-  author = {Wu, Bo and Mei, Tao and Cheng, Wen-Huang and Zhang, Yongdong},
-  title = {Unfolding Temporal Dynamics: Predicting Social Media Popularity Using Multi-scale Temporal Decomposition},
-  booktitle = {AAAI}
-  year = {2016},
-  location = {Phoenix, Arizona}}
 @inproceedings{Wu2016TimeMatters,
   author = {Wu, Bo and Cheng, Wen-Huang and Zhang, Yongdong and Mei, Tao},
   title = {Time Matters: Multi-scale Temporalization of Social Media Popularity},
